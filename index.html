@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Interactive Pricing Component</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Simple, traffic-based pricing</h1>
+        <div class="description">
+            <p>Sign-up for our 30-day trial.</p>
+            <p>No credit card required.</p>
+        </div>
+    </div>
+
+    <div class="main-card">
+        <div class="grid">
+            <h3 class="pageviews">100K PAGEVIEWS</h3>
+            <input type="range" name="price-range" id="price-inp" step="1" min="0" max="4" autocomplete="off">
+            <div class="price-val"> <span class="price">$16.00</span><span class="per-month">/ month</span></div>
+        </div>
+        <div class="toggle-switch">
+            <p class="billing-type">Monthly Billing</p>
+            <input type="checkbox" name="toggle" id="toggle-el">
+            <p class="billing-type">Yearly Billing <span class="discount">-25% <span
+                        class="discount2">discount</span></span></p>
+
+        </div>
+
+        <div class="card-footer">
+            <div class="features">
+                <ul>
+                    <li><img src="./images/icon-check.svg" alt="check-icon" class="check-icon">Unlimited websites</li>
+                    <li><img src="./images/icon-check.svg" alt="check-icon" class="check-icon">100% data ownership</li>
+                    <li><img src="./images/icon-check.svg" alt="check-icon" class="check-icon">Email reports</li>
+                </ul>
+            </div>
+            <button>Start my trial</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
